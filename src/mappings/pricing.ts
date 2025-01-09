@@ -6,7 +6,7 @@ import { ADDRESS_ZERO, factoryContract, ONE_BD, UNTRACKED_PAIRS, ZERO_BD } from 
 
 // TODO(SONIC): update here if needed
 const WETH_ADDRESS = '0x039e2fb66102314ce7b64ce5ce3e5183bc94ad38'
-const USDC_WETH_PAIR = '0x0D0Abc4e8AFDfb5257fA455dFAf18f79df11065c'
+const USDC_WETH_PAIR = '0x0d0abc4e8afdfb5257fa455dfaf18f79df11065c'
 
 export function getEthPriceInUSD(): BigDecimal {
   // fetch eth prices for each stablecoin
